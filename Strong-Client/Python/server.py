@@ -22,8 +22,9 @@ class WebSocketServer(wspy.Connection):
 	# Run upon receiving a message
 	def onmessage(self, message):
 		print 'Received message "%s"' % message.payload
-		global lastMessage
-		self.send(wspy.TextMessage(unicode(lastMessage, "utf-8")))
+		if message.payload == "ready": # If the webpage is ready, give it data
+			global lastMessage
+			self.send(wspy.TextMessage(unicode(lastMessage, "utf-8")))
 
 	# Run upon closing the connection
 	def onclose(self, code, reason):
