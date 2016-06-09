@@ -1,0 +1,3 @@
+http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics
+http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29#rospy_tutorials.2BAC8-Tutorials.2BAC8-WritingPublisherSubscriber.CA-c82832e0d612370fe9886563f0b7f5433f6caee1_2
+http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber
